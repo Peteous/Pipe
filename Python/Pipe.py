@@ -62,4 +62,5 @@ def main():
         if ui:
             ui.messageBox('Failed:\n{}'.format(traceback.format_exc()))
 
-main()
+if __name__ == '__main__':
+    main()
